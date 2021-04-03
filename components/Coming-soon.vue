@@ -33,3 +33,13 @@ h3{
   color: white;
 }
 </style>
+<script>
+export default {
+  name: 'Em breve',
+  data() {
+    return{
+      banner: require('~/assets/a-escavacao-vertical.jpg')
+    }
+  }
+}
+</script>
