@@ -46,9 +46,6 @@ export default {
   build: {
     babel: {
       compact: true
-    },
-    bootstrapVue: {
-      icons: false
     }
   }
 
