@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/actor-owen-wilson", {data:[{}],fetch:{},mutations:void 0});
