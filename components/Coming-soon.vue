@@ -4,16 +4,16 @@
       <h3>Em breve</h3>
         <b-card-group columns style="max-width: 640px;">
           <nuxt-link to="/a-escavacao">
-            <b-card img-src="~/assets/a-escavacao-vertical.jpg" img-alt="A escavação" overlay></b-card>
-            <b-badge class="badge" style="background-color: orange;">14</b-badge>
+            <b-card :img-src="banner" img-alt="A escavação" overlay></b-card>
+            <b-badge class="badge" style="background-color: orange;">{{ age }}</b-badge>
           </nuxt-link>
           <nuxt-link to="/bliss-em-busca-da-felicidade">
-            <b-card img-src="~/assets/bliss-vertical.jpg" img-alt="Bliss: em busca da felicidade" overlay></b-card>
-            <b-badge class="badge" variant="danger">16</b-badge>
+            <b-card :img-src="banner" img-alt="Bliss: em busca da felicidade" overlay></b-card>
+            <b-badge class="badge" variant="danger">{{ age }}</b-badge>
           </nuxt-link>
           <nuxt-link to="/raya-e-o-ultimo-dragao">
-            <b-card img-src="~/assets/raya-vertical.jpg" img-alt="Raya e o último dragão" overlay></b-card>
-            <b-badge class="badge" variant="danger">17</b-badge>
+            <b-card :img-src="banner" img-alt="Raya e o último dragão" overlay></b-card>
+            <b-badge class="badge" variant="danger">{{ age }}</b-badge>
           </nuxt-link>
         </b-card-group>
     </div>
@@ -35,11 +35,5 @@ h3{
 </style>
 <script>
 export default {
-  name: 'Em breve',
-  data() {
-    return{
-      banner: require('~/assets/a-escavacao-vertical.jpg')
-    }
-  }
 }
 </script>
