@@ -4,6 +4,7 @@
     <b-navbar-brand href="/">Cinema</b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+    <b-collapse id="nav-collapse" is-nav>
     <b-nav-item href="#">Lançamentos</b-nav-item>
     <b-nav-item href="#">Em breve</b-nav-item>
 
