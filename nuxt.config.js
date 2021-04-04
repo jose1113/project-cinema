@@ -44,8 +44,12 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  },
-  loaders: [
-    { test: /\.js$/, loader: 'babel', query: {compact: false} },
-  ]
+    babel: {
+      compact: true
+    },
+    bootstrapVue: {
+      icons: false
+    }
+  }
+
 }
