@@ -16,8 +16,15 @@
           </b-nav-form>
 
           <b-nav-item-dropdown text="Lang" right>
-            <b-dropdown-item href="#">EN</b-dropdown-item>
-            <b-dropdown-item href="#">ES</b-dropdown-item>
+            <b-dropdown-item>
+              <nuxt-link :to="switchLocalePath('en')">EN</nuxt-link>
+            </b-dropdown-item>
+            <b-dropdown-item>
+              <nuxt-link :to="switchLocalePath('es')">ES</nuxt-link>
+            </b-dropdown-item>
+            <b-dropdown-item>
+              <nuxt-link :to="switchLocalePath('pt-br')">PT-BR</nuxt-link>
+            </b-dropdown-item>
           </b-nav-item-dropdown>
         </b-navbar-nav>
       </b-collapse>
