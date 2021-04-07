@@ -19,30 +19,30 @@
       </b-row>
     </b-container>
     <b-container>
-      <h4>Elenco</h4>
+      <h4 class="elenco">Elenco</h4>
       <b-row class="text-center">
-          <b-col>
+          <b-col cols="6" sm="6" md="6" lg="3" xl="3">
             <nuxt-link to="/actor-ralph-fiennes" class="actor">
               <b-avatar src="~/assets/actor-ralph-fiennes.jpg" size="100px"></b-avatar>
               <p class="mt-2"><strong>Ralph Fiennes</strong></p>
               <p style="color: gray; font-size: 15px;">Personagem: Basil Brown</p>
             </nuxt-link>
           </b-col>
-          <b-col>
+          <b-col cols="6" sm="6" md="6" lg="3" xl="3">
             <nuxt-link to="/actor-carey-mulligan" class="actor">
               <b-avatar src="~/assets/actor-carey-mulligan.jpg" size="100px"></b-avatar>
               <p class="mt-2"><strong>Carey Mulligan</strong></p>
               <p style="color: gray; font-size: 15px;">Personagem: Edith Pretty</p>
             </nuxt-link>
           </b-col>
-          <b-col>
+          <b-col cols="6" sm="6" md="6" lg="3" xl="3">
             <nuxt-link to="/actor-lily-james" class="actor">
               <b-avatar src="~/assets/actor-lily-james.jpg" size="100px"></b-avatar>
               <p class="mt-2"><strong>Lily James</strong></p>
               <p style="color: gray; font-size: 15px;">Personagem: Peggy Preston</p>
             </nuxt-link>
           </b-col>
-          <b-col>
+          <b-col cols="6" sm="6" md="6" lg="3" xl="3">
             <nuxt-link to="/actor-arsher-ali" class="actor">
               <b-avatar src="~/assets/actor-arsher-ali.jpg" size="100px"></b-avatar>
               <p class="mt-2"><strong>Arsher Ali</strong></p>
@@ -61,5 +61,11 @@ h3{
   text-decoration: none;
   color: black;
   line-height: 5px;
+}
+@media(max-width:576px){
+  .elenco{
+    text-align: center;
+    margin-top: 7px;
+  }
 }
 </style>
