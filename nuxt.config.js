@@ -42,7 +42,7 @@ export default {
 
   i18n: {
     locales: ['pt', 'en', 'es'],
-    defaultLocale: 'pt-br',
+    defaultLocale: 'pt',
     vueI18n: {
       fallbackLocale: 'pt',
       messages: {
