@@ -25,7 +25,7 @@
       <b-button type="reset" variant="danger">Limpar campos</b-button>
     </b-form>
     <b-card class="mt-3" header="Form Data Result">
-      <p class="m-0">{{ form.name }}</p>
+      <p class="m-0">{{ form }}</p>
     </b-card>
     </b-container>
   </div>
