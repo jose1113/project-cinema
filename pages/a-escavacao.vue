@@ -50,6 +50,7 @@
             </nuxt-link>
           </b-col>
         </b-row>
+        <Comentario />
     </b-container>
   </div>
 </template>
