@@ -45,8 +45,8 @@
       return {
         items: [
           {
-            text: 'Bliss: Em busca da felicidade',
-            href: '/bliss-em-busca-da-felicidade'
+            text: 'A escavação',
+            href: '/a-escavacao'
           },
           {
             text: 'Ator: Ralph Fiennes',
