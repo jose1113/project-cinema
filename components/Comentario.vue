@@ -15,7 +15,7 @@
       <b-form-group id="input-group-3" label="Digite seu comentário:" label-for="input-3">
         <b-form-textarea
         id="textarea"
-        v-model="text"
+        v-model="form.text"
         rows="3"
         max-rows="6"
       ></b-form-textarea>
@@ -24,8 +24,9 @@
       <b-button type="submit" variant="primary">Adicionar</b-button>
       <b-button type="reset" variant="danger">Limpar campos</b-button>
     </b-form>
-    <b-card class="mt-3" header="Form Data Result">
-      <p class="m-0">{{ form }}</p>
+    <b-card class="mt-3">
+      <p class="m-0">{{ form.name }}</p>
+      <p class="m-0">{{ form.text }}</p>
     </b-card>
     </b-container>
   </div>
@@ -36,6 +37,7 @@ export default {
       return {
         form: {
           name: '',
+          text: '',
         },
         foods: [{ text: 'Select One', value: null }, 'Carrots', 'Beans', 'Tomatoes', 'Corn'],
         show: true
@@ -44,7 +46,6 @@ export default {
     methods: {
       onSubmit(event) {
         event.preventDefault()
-        alert(JSON.stringify(this.form))
       },
       onReset(event) {
         event.preventDefault()
