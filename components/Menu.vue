@@ -7,6 +7,9 @@
       <b-collapse id="nav-collapse" is-nav>
       <b-nav-item href="#" class="lancamentos">Lançamentos</b-nav-item>
       <b-nav-item href="#" class="lancamentos">Em breve</b-nav-item>
+      <b-nav-item class="lancamentos">
+        <nuxt-link to="contato">Contato</nuxt-link>
+      </b-nav-item>
 
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
