@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/es/bliss-em-busca-da-felicidade", {data:[{}],fetch:{},mutations:void 0});

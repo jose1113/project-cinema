@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/kong-ilha-da-caveira", {data:[{}],fetch:{},mutations:void 0});

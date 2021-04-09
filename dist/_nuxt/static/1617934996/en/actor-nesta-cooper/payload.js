@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/actor-nesta-cooper", {data:[{}],fetch:{},mutations:void 0});

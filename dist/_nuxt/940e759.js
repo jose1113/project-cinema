@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[15],{374:function(n,e,l){"use strict";l.r(e);var o=l(28),component=Object(o.a)({},(function(){var n=this,e=n.$createElement,l=n._self._c||e;return l("div",[l("Carroussel"),n._v(" "),l("Coming-soon")],1)}),[],!1,null,null,null);e.default=component.exports;installComponents(component,{Carroussel:l(146).default})}}]);
