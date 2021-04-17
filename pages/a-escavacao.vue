@@ -7,11 +7,11 @@
     </b-container>
     <b-container>
       <b-row>
-        <b-col>
+        <b-col cols="12" sm="12" md="12" lg="6" xl="6">
           <h3>Leia a sinopse</h3>
           <p class="mt-2 text-justify">A Escavação conta a história de um arqueólogo que embarca na escavação historicamente importante de Sutton Hoo, em 1938, onde um grupo descobre uma grande quantia de ouro em uma câmara mortuária de um navio enterrado. Baseado no livro de mesmo nome de John Preston e em uma história real.</p>
         </b-col>
-        <b-col>
+        <b-col cols="12" sm="12" md="12" lg="6" xl="6">
           <div class="d-flex justify-content-center">
             <iframe width="506" height="303" src="https://www.youtube.com/embed/rXoel44ZudM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
@@ -65,6 +65,12 @@ h3{
 }
 @media(max-width:576px){
   .elenco{
+    text-align: center;
+    margin-top: 7px;
+  }
+}
+@media(max-width:768px){
+    .elenco{
     text-align: center;
     margin-top: 7px;
   }
