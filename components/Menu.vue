@@ -1,7 +1,9 @@
 <template>
   <div>
     <b-navbar class="nav" toggleable="lg" type="dark">
-      <b-navbar-brand href="/">Cinema</b-navbar-brand>
+      <b-navbar-brand href="/">
+        <img src="~/assets/logo-mega.png" alt="Logotipo" class="w-25">
+      </b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <b-collapse id="nav-collapse" is-nav>
