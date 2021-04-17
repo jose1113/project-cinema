@@ -1,10 +1,9 @@
 <template>
   <div>
-    <b-breadcrumb :items="items"></b-breadcrumb>
     <b-container>
       <b-row class="d-flex align-items-center">
         <b-col cols="12" sm="12" md="12" lg="6" xl="6">
-          <h3 class="mb-3">Ralph Fiennes</h3>
+          <h3 class="mb-3">{{ nome }}</h3>
           <b-avatar :src="require(`~/assets/${img}`)" size="300px"></b-avatar>
         </b-col>
         <b-col cols="12" sm="12" md="12" lg="6" xl="6">
@@ -47,6 +46,7 @@
 <script>
 export default {
   props: {
+    nome: String,
     atividades: String,
     nomeNasc: String,
     nascimento: String,
