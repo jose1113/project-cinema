@@ -2,7 +2,7 @@
   <div>
     <b-navbar class="nav" toggleable="lg" type="dark">
       <b-navbar-brand href="/">
-        <img src="~/assets/logo-mega.png" alt="Logotipo" class="w-25">
+        <img src="~/assets/logo-mega.png" alt="Logotipo" class="logo">
       </b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -53,5 +53,9 @@
   }
   ::v-deep .nav-link {
     color: white!important;
+  }
+  .logo{
+    width: 48px;
+    height: 48px;
   }
 </style>
