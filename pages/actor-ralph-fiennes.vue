@@ -1,6 +1,8 @@
 <template>
   <div>
+    <b-breadcrumb :items="items"></b-breadcrumb>
     <Actor
+      nome = 'Ralph Fiennes'
       atividades = 'Ator, diretor e produtor'
       nomeNasc = 'Ralph Nathaniel Twisleton-Wykeham-Fiennes'
       nascimento = '22 de dezembro de 1962 (Sufolk, Inglaterra)'
