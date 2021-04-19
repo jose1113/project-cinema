@@ -2,8 +2,8 @@
   <div>
       <img :src="`~/assets/${imgBanner}`" alt="Cartaz A escavação" class="w-100">
     <b-container class="mt-3">
-      <h1>{{ title }} <b-badge variant="light" style="border: 1px solid black; font-size: 15px; color: purple;">{{ category }}</b-badge></h1>
-      <p>{{ year }} | <b-badge v-if="14" style="padding:7px; background-color: orange;">{{ age }}</b-badge> | {{ duration }}</p>
+      <h1>{{ title }} <b-badge v-if="type === 'Terror' || type === 'terror'" variant="light" style="border: 1px solid black; font-size: 15px; color: red;">{{ category }}</b-badge></h1>
+      <p>{{ year }} | <b-badge style="padding:7px; background-color: orange;">{{ age }}</b-badge> | {{ duration }}</p>
     </b-container>
     <b-container>
       <b-row>
@@ -56,6 +56,13 @@ export default {
     duration: String,
     sinopse: String,
     video: String
+  },
+  computed (){
+    if (this.category === 'terror' || this.category === 'Terror'){
+      return 'red'
+    } else{
+      return 'error'
+    }
   }
 }
 </script>
