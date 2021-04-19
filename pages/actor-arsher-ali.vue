@@ -39,6 +39,7 @@
 }
 </style>
 <script>
+import Actor from '~/components/Actor.vue'
   export default {
     data() {
       return {
@@ -51,7 +52,7 @@
             text: 'Ator: Arsher Ali',
             href: '#'
           },
-        ]
+        ],
       }
     }
   }
