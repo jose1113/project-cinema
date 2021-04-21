@@ -2,7 +2,7 @@
   <div>
     <b-navbar class="nav" toggleable="lg" type="dark">
       <b-navbar-brand href="/">
-        <img src="~/assets/logo.svg" alt="Logotipo" class="logo">
+        <img src="~/assets/logo.png" alt="Logotipo" class="logo">
       </b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
