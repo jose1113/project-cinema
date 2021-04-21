@@ -7,8 +7,8 @@
               <b-card img-src="~/assets/a-escavacao-vertical.jpg" img-alt="A escavação" overlay></b-card>
               <b-badge class="badge" style="background-color: orange;">14</b-badge>
             </nuxt-link>
-          <nuxt-link to="/bliss-em-busca-da-felicidade">
-            <b-card img-src="~/assets/bliss-vertical.jpg" img-alt="Bliss: em busca da felicidade" overlay></b-card>
+          <nuxt-link to="/space-jam">
+            <b-card img-src="~/assets/space-jam-vertical.jpg" img-alt="Bliss: em busca da felicidade" overlay></b-card>
             <b-badge class="badge" variant="danger">16</b-badge>
           </nuxt-link>
           <nuxt-link to="/raya-e-o-ultimo-dragao">
