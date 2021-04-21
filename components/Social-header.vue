@@ -27,7 +27,7 @@
 
 <style scoped>
 .complete{
-  background-color: rgb(189, 187, 187);
+  background-color: #949494;
 }
 img{
   width: 20px;
