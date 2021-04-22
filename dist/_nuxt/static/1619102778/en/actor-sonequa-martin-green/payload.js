@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/actor-sonequa-martin-green", {data:[{}],fetch:{},mutations:void 0});

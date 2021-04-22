@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/actor-don-cheadle", {data:[{}],fetch:{},mutations:void 0});

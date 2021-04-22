@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/actor-michael-pena", {data:[{}],fetch:{},mutations:void 0});
