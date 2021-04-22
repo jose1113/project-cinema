@@ -15,7 +15,7 @@
 
       <!-- Slides with image only -->
       <nuxt-link to="/kong-ilha-da-caveira"><b-carousel-slide img-src="~/assets/kong-cartaz.jpg"></b-carousel-slide></nuxt-link>
-      <nuxt-link to="/hobbit"><b-carousel-slide img-src="~/assets/hobbit-cartaz.jpg"></b-carousel-slide></nuxt-link>
+      <nuxt-link to="/tom-e-jerry"><b-carousel-slide img-src="~/assets/tom-e-jerry-cartaz.jpg"></b-carousel-slide></nuxt-link>
     </b-carousel>
   </div>
 </template>

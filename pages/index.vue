@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Carroussel />
+    <Carousel />
     <Coming-soon />
   </div>
 </template>
