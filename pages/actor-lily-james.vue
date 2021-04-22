@@ -10,7 +10,7 @@
       idade = '31 anos'
       anosCar = '9'
       filmes = '19'
-      img = 'actor-carey-mulligan.jpg'
+      img = 'actor-lily-james.jpg'
     />
   </div>
 </template>
