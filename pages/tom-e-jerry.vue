@@ -23,31 +23,24 @@
       <h4 class="elenco">Elenco</h4>
       <b-row class="text-center">
           <b-col cols="6" sm="6" md="6" lg="3" xl="3">
-            <nuxt-link to="/actor-ralph-fiennes" class="actor">
-              <b-avatar src="~/assets/actor-ralph-fiennes.jpg" size="100px"></b-avatar>
-              <p class="mt-2"><strong>Ralph Fiennes</strong></p>
-              <p style="color: gray; font-size: 15px;">Personagem: Basil Brown</p>
+            <nuxt-link to="/actor-chloe-grace-moretz" class="actor">
+              <b-avatar src="~/assets/actor-chloe-grace-moretz.jpg" size="100px"></b-avatar>
+              <p class="mt-2"><strong>Chloë Grace Moretz</strong></p>
+              <p style="color: gray; font-size: 15px;">Personagem: Kayla</p>
             </nuxt-link>
           </b-col>
           <b-col cols="6" sm="6" md="6" lg="3" xl="3">
-            <nuxt-link to="/actor-carey-mulligan" class="actor">
-              <b-avatar src="~/assets/actor-carey-mulligan.jpg" size="100px"></b-avatar>
-              <p class="mt-2"><strong>Carey Mulligan</strong></p>
-              <p style="color: gray; font-size: 15px;">Personagem: Edith Pretty</p>
+            <nuxt-link to="/actor-michael-pena" class="actor">
+              <b-avatar src="~/assets/actor-michael-pena.jpg" size="100px"></b-avatar>
+              <p class="mt-2"><strong>Michael Peña</strong></p>
+              <p style="color: gray; font-size: 15px;">Personagem: Terrancey</p>
             </nuxt-link>
           </b-col>
           <b-col cols="6" sm="6" md="6" lg="3" xl="3">
-            <nuxt-link to="/actor-lily-james" class="actor">
-              <b-avatar src="~/assets/actor-lily-james.jpg" size="100px"></b-avatar>
-              <p class="mt-2"><strong>Lily James</strong></p>
-              <p style="color: gray; font-size: 15px;">Personagem: Peggy Preston</p>
-            </nuxt-link>
-          </b-col>
-          <b-col cols="6" sm="6" md="6" lg="3" xl="3">
-            <nuxt-link to="/actor-arsher-ali" class="actor">
-              <b-avatar src="~/assets/actor-arsher-ali.jpg" size="100px"></b-avatar>
-              <p class="mt-2"><strong>Arsher Ali</strong></p>
-              <p style="color: gray; font-size: 15px;">Personagem: William Grimes</p>
+            <nuxt-link to="/actor-camila-rutherford" class="actor">
+              <b-avatar src="~/assets/actor-camila-rutherford.jpg" size="100px"></b-avatar>
+              <p class="mt-2"><strong>Camilla Rutherford</strong></p>
+              <p style="color: gray; font-size: 15px;">Personagem: Wealthy Woman</p>
             </nuxt-link>
           </b-col>
         </b-row>
