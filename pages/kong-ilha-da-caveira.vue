@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-breadcrumb :items="items"></b-breadcrumb>
-      <img src="~/assets/kong-cartaz.jpg" alt="Cartaz Kong" class="w-100">
+      <img src="~/assets/kong-horizontal.jpg" alt="Cartaz Kong" class="w-100">
     <b-container class="mt-3">
       <h1>Kong: A Ilha da Caveira <b-badge variant="light" style="border: 1px solid black; font-size: 15px; color: blue;">Ação</b-badge></h1>
       <p>2017 | <b-badge variant="warning" style="padding:7px;">12</b-badge> | 1h 58min</p>
