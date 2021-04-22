@@ -3,7 +3,7 @@
       <img src="~/assets/raya-cartaz.jpg" alt="Cartaz Raya e o último dragão" class="w-100">
     <b-container class="mt-3">
       <h1>Raya e o último dragão <b-badge variant="light" style="border: 1px solid black; font-size: 15px; color: blue;">Ação</b-badge></h1>
-      <p>2020 | <b-badge variant="danger" style="padding:7px;">17</b-badge> | 1h 47min</p>
+      <p>2020 | <b-badge variant="danger" style="padding:7px;">16</b-badge> | 1h 47min</p>
     </b-container>
     <b-container>
       <b-row>
