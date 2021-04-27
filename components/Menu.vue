@@ -19,7 +19,7 @@
 
           <b-nav-item-dropdown text="Lang" right>
             <b-dropdown-item>
-              <nuxt-link :to="switchLocalePath('en')">EN</nuxt-link>
+              <nuxt-link :to="localePath('a-escavacao')">{{ $t('en') }}</nuxt-link>
             </b-dropdown-item>
             <b-dropdown-item>
               <nuxt-link :to="switchLocalePath('es')">ES</nuxt-link>
