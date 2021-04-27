@@ -50,7 +50,8 @@ export default {
           lancamentos: 'Lançamentos'
         },
         en: {
-          lancamentos: 'Releases'
+          path: "/a-escavacao__en",
+          name: "a-escavacao___en"
         },
         es: {
           lancamentos: 'Lanzamientos'
