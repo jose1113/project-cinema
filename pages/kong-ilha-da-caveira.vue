@@ -1,6 +1,5 @@
 <template>
   <div>
-    <b-breadcrumb :items="items"></b-breadcrumb>
       <img src="~/assets/kong-horizontal.jpg" alt="Cartaz Kong" class="w-100">
     <b-container class="mt-3">
       <h1>Kong: A Ilha da Caveira <b-badge variant="light" style="border: 1px solid black; font-size: 15px; color: blue;">Ação</b-badge></h1>
@@ -27,21 +26,3 @@ h3{
   color: rgb(165, 35, 35);
 }
 </style>
-<script>
-  export default {
-    data() {
-      return {
-        items: [
-          {
-            text: 'Página inicial',
-            href: '/'
-          },
-          {
-            text: 'Kong: A Ilha da Caveira',
-            href: '#'
-          },
-        ]
-      }
-    }
-  }
-</script>

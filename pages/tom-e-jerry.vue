@@ -1,6 +1,5 @@
 <template>
   <div>
-    <b-breadcrumb :items="items"></b-breadcrumb>
       <img src="~/assets/tom-e-jerry-horizontal.jpg" alt="Cartaz Kong" class="w-100">
     <b-container class="mt-3">
       <h1>Tom e Jerry: o filme <b-badge variant="light" style="border: 1px solid black; font-size: 15px; color: green;">Animação</b-badge></h1>
@@ -21,7 +20,7 @@
     </b-container>
     <b-container>
       <h4 class="elenco">Elenco</h4>
-      <b-row class="text-center">
+      <b-row class="text-center d-flex justify-content-center">
           <b-col cols="6" sm="6" md="6" lg="3" xl="3">
             <nuxt-link to="/actor-chloe-grace-moretz" class="actor">
               <b-avatar src="~/assets/actor-chloe-grace-moretz.jpg" size="100px"></b-avatar>
@@ -70,22 +69,3 @@ h3{
   }
 }
 </style>
-</style>
-<script>
-  export default {
-    data() {
-      return {
-        items: [
-          {
-            text: 'Página inicial',
-            href: '/'
-          },
-          {
-            text: 'Tom e Jerry: o filme',
-            href: '#'
-          },
-        ]
-      }
-    }
-  }
-</script>
