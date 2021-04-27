@@ -1,6 +1,5 @@
 <template>
   <div>
-    <b-breadcrumb :items="items"></b-breadcrumb>
       <img src="~/assets/a-escavacao-horizontal.jpg" alt="Cartaz A escavação" class="w-100">
     <b-container class="mt-3">
       <h1>A escavação <b-badge variant="light" style="border: 1px solid black; font-size: 15px; color: purple;">Drama</b-badge></h1>
@@ -77,21 +76,3 @@ h3{
   }
 }
 </style>
-<script>
-  export default {
-    data() {
-      return {
-        items: [
-          {
-            text: 'Página inicial',
-            href: '/'
-          },
-          {
-            text: 'A escavação',
-            href: '#'
-          },
-        ]
-      }
-    }
-  }
-</script>
