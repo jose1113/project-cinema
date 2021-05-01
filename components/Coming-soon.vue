@@ -1,7 +1,7 @@
 <template>
   <b-container fluid class="mt-3 cards">
     <b-container class="container" style="max-width: 640px;">
-      <h3>Em breve</h3>
+      <h3>{{ $t('comingSoon') }}</h3>
         <b-card-group class="m-auto" columns>
             <nuxt-link to="/a-escavacao">
               <b-card img-src="~/assets/a-escavacao-vertical.jpg" img-alt="A escavação" overlay></b-card>
