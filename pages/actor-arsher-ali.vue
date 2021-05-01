@@ -7,7 +7,7 @@
       nomeNasc = 'Desconhecido'
       nascimento = '9 de abril de 1984'
       nacionalidade = 'Britânico'
-      idade = '36 anos'
+      idade = '36'
       anosCar = '12'
       filmes = '10'
       img = 'actor-arsher-ali.jpg'

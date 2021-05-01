@@ -8,7 +8,7 @@
     <b-container>
       <b-row>
         <b-col>
-          <h3>Leia a sinopse</h3>
+          <h3>{{ $t('elenco') }}</h3>
           <p class="mt-2 text-justify">Lendas entram em rota de colisão em Godzilla vs. Kong, quando esses dois adversários míticos se encontram em uma batalha espetacular e histórica, que coloca o destino do mundo em jogo. Kong e seus protetores iniciam uma jornada perigosa para encontrar seu verdadeiro lar. Com eles está Jia, jovem órfã com quem Kong criou um vínculo único e sólido. Mas, inesperadamente, eles cruzam o caminho de um Godzilla enfurecido, que tem deixado atrás de si uma trilha de destruição em todo o planeta. O confronto épico entre os dois titãs - instigado por forças invisíveis - é apenas a porta de entrada do grande mistério que reside nas profundezas do núcleo da Terra.</p>
         </b-col>
         <b-col>

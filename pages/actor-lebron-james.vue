@@ -7,7 +7,7 @@
       nomeNasc = 'Lebron Raymon James'
       nascimento = '30 de dezembro de 1984 (Akron, Ohio, EUA)'
       nacionalidade = 'Americano'
-      idade = '36 anos'
+      idade = '36'
       anosCar = '17'
       filmes = '13'
       img = 'actor-lebron-james.jpg'

@@ -7,7 +7,7 @@
       nomeNasc = 'Carey Hannah Mulligan'
       nascimento = '28 de maio de 1985 (Londres, Inglaterra)'
       nacionalidade = 'Britânica'
-      idade = '35 anos'
+      idade = '35'
       anosCar = '14'
       filmes = '23'
       img = 'actor-carey-mulligan.jpg'

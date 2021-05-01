@@ -7,7 +7,7 @@
       nomeNasc = 'Desconhecido'
       nascimento = '20 de setembro de 1976'
       nacionalidade = 'Britânica'
-      idade = '44 anos'
+      idade = '44'
       anosCar = '19'
       filmes = '11'
       img = 'actor-camila-rutherford.jpg'

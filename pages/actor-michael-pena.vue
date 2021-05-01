@@ -7,7 +7,7 @@
       nomeNasc = 'Miguel Antonio Peña'
       nascimento = '13 de janeiro de 1976 (Chicago, Illinois, EUA)'
       nacionalidade = 'Americano'
-      idade = '45 anos'
+      idade = '45'
       anosCar = '24'
       filmes = '64'
       img = 'actor-michael-pena.jpg'

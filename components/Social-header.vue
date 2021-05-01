@@ -4,7 +4,7 @@
       <b-row>
         <b-col cols="6" sm="6" md="6" lg="6" xl="6">
           <b-navbar class="text-white">
-            <p class="m-1">Nossas redes</p>
+            <p class="m-1">{{ $t('rede') }}</p>
             <a href="#">
               <img class="m-2" src="~/assets/logo-facebook.png" alt="Logotipo do Facebook">
               </a>
@@ -16,7 +16,7 @@
         <b-col cols="6" sm="6" md="6" lg="6" xl="6">
           <b-navbar class="m-2 d-flex justify-content-end">
             <nuxt-link to="#">
-              Contraste
+              {{ $t('contrast') }}
             </nuxt-link>
           </b-navbar>
         </b-col>

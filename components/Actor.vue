@@ -7,11 +7,11 @@
           <b-avatar :src="require(`~/assets/${img}`)" size="300px"></b-avatar>
         </b-col>
         <b-col cols="12" sm="12" md="12" lg="6" xl="6">
-          <p><strong>Atividades:</strong> <span>{{ atividades }}</span></p>
-          <p><strong>Nome de nascimento: </strong><span>{{ nomeNasc }}</span></p>
-          <p><strong>Nascimento: </strong><span>{{ nascimento }}</span></p>
-          <p><strong>Nacionalidade: </strong><span>{{ nacionalidade }}</span></p>
-          <p><strong>Idade: </strong><span>{{ idade }}</span></p>
+          <p><strong>{{ $t('activities') }}</strong> <span>{{ atividades }}</span></p>
+          <p><strong>{{ $t('nameNasc') }} </strong><span>{{ nomeNasc }}</span></p>
+          <p><strong>{{ $t('nasc') }} </strong><span>{{ nascimento }}</span></p>
+          <p><strong>{{ $t('nationality') }} </strong><span>{{ nacionalidade }}</span></p>
+          <p><strong>{{ $t('ageActor') }} </strong><span>{{ idade }} {{ $t('yearsActor') }}</span></p>
         </b-col>
       </b-row>
     </b-container>
@@ -19,11 +19,11 @@
       <b-row class="mt-3">
         <b-col class="border text-center" cols="6" sm="6" md="6" lg="6" xl="6">
           <strong>{{ anosCar }}</strong>
-          <p>Anos de carreira</p>
+          <p>{{ $t('yearsCareer') }}</p>
         </b-col>
         <b-col class="border text-center" cols="6" sm="6" md="6" lg="6" xl="6">
           <strong>{{ filmes }}</strong>
-          <p>Filmes e séries lançados</p>
+          <p>{{ $t('filmSerie') }}</p>
         </b-col>
       </b-row>
     </b-container>

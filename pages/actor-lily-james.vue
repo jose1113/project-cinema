@@ -7,7 +7,7 @@
       nomeNasc = 'Lily Chloe Ninette Thomso'
       nascimento = '5 de abril de 1989 (Esher, Inglaterra)'
       nacionalidade = 'Britânica'
-      idade = '31 anos'
+      idade = '31'
       anosCar = '9'
       filmes = '19'
       img = 'actor-lily-james.jpg'

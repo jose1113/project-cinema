@@ -7,7 +7,7 @@
       nomeNasc = 'Desconhecido'
       nascimento = '10 de fevereiro de 1997 (Atlanta, Georgia, EUA)'
       nacionalidade = 'Americana'
-      idade = '24 anos'
+      idade = '24'
       anosCar = '15'
       filmes = '46'
       img = 'actor-chloe-grace-moretz.jpg'

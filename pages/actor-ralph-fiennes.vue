@@ -7,7 +7,7 @@
       nomeNasc = 'Ralph Nathaniel Twisleton-Wykeham-Fiennes'
       nascimento = '22 de dezembro de 1962 (Sufolk, Inglaterra)'
       nacionalidade = 'Britânico'
-      idade = '58 anos'
+      idade = '58'
       anosCar = '29'
       filmes = '62'
       img = 'actor-ralph-fiennes.jpg'

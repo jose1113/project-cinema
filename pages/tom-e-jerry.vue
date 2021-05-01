@@ -8,7 +8,7 @@
     <b-container>
       <b-row>
         <b-col cols="12" sm="12" md="12" lg="6" xl="6">
-          <h3>Leia a sinopse</h3>
+          <h3>{{ $t('sinopse') }}</h3>
           <p class="mt-2 text-justify">Adaptação dos desenhos, Tom e Jerry: O Filme mostra uma das rivalidades mais amadas da história que é reacendida quando Jerry se muda para o melhor hotel de Nova York na véspera do "casamento do século", forçando a desesperada organizadora do evento (Chloe Moretz) a contratar Tom para se livrar do rato. Mas logo surge um problema ainda maior: um funcionário diabolicamente ambicioso conspira contra os três. Uma combinação de animação clássica e live-action.</p>
         </b-col>
         <b-col cols="12" sm="12" md="12" lg="6" xl="6">
@@ -19,27 +19,27 @@
       </b-row>
     </b-container>
     <b-container>
-      <h4 class="elenco">Elenco</h4>
-      <b-row class="text-center d-flex justify-content-center">
+      <h4 class="elencoTitle text-center text-white mt-3 rounded">{{ $t('elenco') }}</h4>
+      <b-row class="text-center d-flex justify-content-center elenco rounded p-3">
           <b-col cols="6" sm="6" md="6" lg="3" xl="3">
             <nuxt-link to="/actor-chloe-grace-moretz" class="actor">
               <b-avatar src="~/assets/actor-chloe-grace-moretz.jpg" size="100px"></b-avatar>
               <p class="mt-2"><strong>Chloë Grace Moretz</strong></p>
-              <p style="color: gray; font-size: 15px;">Personagem: Kayla</p>
+              <p style="color: gray; font-size: 15px;">{{ $t('character') }} Kayla</p>
             </nuxt-link>
           </b-col>
           <b-col cols="6" sm="6" md="6" lg="3" xl="3">
             <nuxt-link to="/actor-michael-pena" class="actor">
               <b-avatar src="~/assets/actor-michael-pena.jpg" size="100px"></b-avatar>
               <p class="mt-2"><strong>Michael Peña</strong></p>
-              <p style="color: gray; font-size: 15px;">Personagem: Terrancey</p>
+              <p style="color: gray; font-size: 15px;">{{ $t('character') }} Terrancey</p>
             </nuxt-link>
           </b-col>
           <b-col cols="6" sm="6" md="6" lg="3" xl="3">
             <nuxt-link to="/actor-camila-rutherford" class="actor">
               <b-avatar src="~/assets/actor-camila-rutherford.jpg" size="100px"></b-avatar>
               <p class="mt-2"><strong>Camilla Rutherford</strong></p>
-              <p style="color: gray; font-size: 15px;">Personagem: Wealthy Woman</p>
+              <p style="color: gray; font-size: 15px;">{{ $t('character') }} Wealthy Woman</p>
             </nuxt-link>
           </b-col>
         </b-row>
@@ -48,22 +48,31 @@
   </div>
 </template>
 <style scoped>
+.elenco{
+  background-image: linear-gradient(to left bottom, #af0404, #a00e3e, #7c2f59, #553e59, #414141);
+}
+.elencoTitle{
+  background-image: linear-gradient(to left bottom, #af0404, #a00e3e, #7c2f59, #553e59, #414141);
+  background-size: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 h3{
   color: rgb(165, 35, 35);
 }
 .actor{
   text-decoration: none;
-  color: black;
+  color: white;
   line-height: 5px;
 }
 @media(max-width:576px){
-  .elenco{
+  .elencoTitle{
     text-align: center;
     margin-top: 7px;
   }
 }
 @media(max-width:768px){
-    .elenco{
+    .elencoTitle{
     text-align: center;
     margin-top: 7px;
   }

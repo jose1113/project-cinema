@@ -7,7 +7,7 @@
       nomeNasc = 'Desconhecido'
       nascimento = '21 de março de 1985'
       nacionalidade = 'Americana'
-      idade = '36 anos'
+      idade = '36'
       anosCar = '13'
       filmes = '12'
       img = 'actor-sonequa-martin-green.jpg'

@@ -7,7 +7,7 @@
       nomeNasc = 'Donald Frank Cheadle'
       nascimento = '29 de novembro de 1964 (Kansas City, Missouri, EUA)'
       nacionalidade = 'Americano'
-      idade = '56 anos'
+      idade = '56'
       anosCar = '35'
       filmes = '53'
       img = 'actor-don-cheadle.jpg'

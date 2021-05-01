@@ -2,8 +2,8 @@
   <footer class="text-white">
     <hr class="container">
     <b-nav class="container d-flex justify-content-center">
-        <nuxt-link to="#" class="text-white mr-5">Lançamentos</nuxt-link>
-        <nuxt-link to="#" class="text-white">Em breve</nuxt-link>
+        <nuxt-link to="#" class="text-white mr-5">{{ $t('lancamentos') }}</nuxt-link>
+        <nuxt-link to="#" class="text-white">{{ $t('comingSoon') }}</nuxt-link>
     </b-nav>
     <hr class="container w-50 bg-white">
     <div class="container w-50 d-flex align-items-center justify-content-between">
