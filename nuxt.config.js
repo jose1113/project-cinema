@@ -41,23 +41,19 @@ export default {
   ],
 
   i18n: {
-    locales: ['pt', 'en', 'es'],
-    defaultLocale: 'pt',
-    vueI18n: {
-      fallbackLocale: 'pt',
-      messages: {
-        pt: {
-          lancamentos: 'Lançamentos'
-        },
-        en: {
-          path: "/a-escavacao__en",
-          name: "a-escavacao___en"
-        },
-        es: {
-          lancamentos: 'Lanzamientos'
-        }
-      }
-    }
+    defaultLocale: 'pt-br',
+    locales: [
+      {
+        code: 'en',
+        file: 'index__en-us.js',
+      },
+      {
+        code: 'pt-br',
+        file: 'index__pt-br.js'
+      },
+    ],
+    lazy: true,
+    langDir: '~/lang/'
   },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
