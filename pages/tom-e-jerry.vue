@@ -8,7 +8,7 @@
     <b-container>
       <b-row>
         <b-col cols="12" sm="12" md="12" lg="6" xl="6">
-          <h3>{{ $t('sinopse') }}</h3>
+          <h3>{{ $t('sinopseTitle') }}</h3>
           <p class="mt-2 text-justify">Adaptação dos desenhos, Tom e Jerry: O Filme mostra uma das rivalidades mais amadas da história que é reacendida quando Jerry se muda para o melhor hotel de Nova York na véspera do "casamento do século", forçando a desesperada organizadora do evento (Chloe Moretz) a contratar Tom para se livrar do rato. Mas logo surge um problema ainda maior: um funcionário diabolicamente ambicioso conspira contra os três. Uma combinação de animação clássica e live-action.</p>
         </b-col>
         <b-col cols="12" sm="12" md="12" lg="6" xl="6">
