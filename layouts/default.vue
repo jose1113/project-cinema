@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div :class="color">
     <Social-header />
     <Menu />
     <Nuxt />
@@ -11,3 +11,12 @@ div{
   font-family: 'Raleway', sans-serif;
 }
 </style>
+<script>
+  export default {
+    data() {
+      return {
+        colors: ['system', 'light', 'dark', 'sepia']
+      }
+    }
+  }
+</script>

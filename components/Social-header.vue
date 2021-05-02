@@ -15,8 +15,11 @@
         </b-col>
         <b-col cols="6" sm="6" md="6" lg="6" xl="6">
           <b-navbar class="m-2 d-flex justify-content-end">
-            <nuxt-link to="#" style="color:#B5121B; font-weight:600;">
-              {{ $t('contrast') }}
+            <nuxt-link to="/#" style="color:#B5121B; font-weight:600;"
+            v-for="color of colors"
+            :key="color"
+            @click="$colorMode.preference = color">
+              {{ color }}
             </nuxt-link>
           </b-navbar>
         </b-col>
