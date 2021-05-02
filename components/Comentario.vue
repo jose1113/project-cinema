@@ -2,7 +2,7 @@
   <div>
     <b-container class="mt-3">
       <hr>
-      <h4>{{ $t('leaveComment') }}</h4>
+      <h4 style="font-weight: 600;">{{ $t('leaveComment') }}</h4>
       <b-form @submit="onSubmit" @reset="onReset" v-if="show">
       <b-form-group id="input-group-2" label="Nome:" label-for="input-2">
         <b-form-input
@@ -12,7 +12,7 @@
         ></b-form-input>
       </b-form-group>
 
-      <b-form-group id="input-group-3" label="Digite seu comentário:" label-for="input-3">
+      <b-form-group id="input-group-3" label="Comentário:" label-for="input-3">
         <b-form-textarea
         id="textarea"
         v-model="form.text"
@@ -21,8 +21,8 @@
       ></b-form-textarea>
       </b-form-group>
 
-      <b-button type="submit" variant="primary">{{ $t('addComment') }}</b-button>
-      <b-button type="reset" variant="danger">{{ $t('clearFields') }}</b-button>
+      <b-button type="submit" variant="primary" style="font-weight: 600;">{{ $t('addComment') }}</b-button>
+      <b-button type="reset" variant="danger" style="font-weight: 600;">{{ $t('clearFields') }}</b-button>
     </b-form>
     <b-card class="mt-3">
       <p class="m-0">{{ form.name }}</p>
@@ -60,3 +60,8 @@ export default {
     }
   }
 </script>
+<style scoped>
+  #input-group-3, #input-group-2{
+    font-weight: 500;
+  }
+</style>
