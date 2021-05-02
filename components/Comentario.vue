@@ -2,7 +2,7 @@
   <div>
     <b-container class="mt-3">
       <hr>
-      <h4>Deixe seu comentário</h4>
+      <h4>{{ $t('leaveComment') }}</h4>
       <b-form @submit="onSubmit" @reset="onReset" v-if="show">
       <b-form-group id="input-group-2" label="Nome:" label-for="input-2">
         <b-form-input
@@ -22,7 +22,7 @@
       </b-form-group>
 
       <b-button type="submit" variant="primary">{{ $t('addComment') }}</b-button>
-      <b-button type="reset" variant="danger">Limpar campos</b-button>
+      <b-button type="reset" variant="danger">{{ $t('clearFields') }}</b-button>
     </b-form>
     <b-card class="mt-3">
       <p class="m-0">{{ form.name }}</p>
