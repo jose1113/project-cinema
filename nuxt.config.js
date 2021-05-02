@@ -18,6 +18,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    "~/assets/css/global.css",
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -41,15 +42,23 @@ export default {
   ],
 
   i18n: {
+    vueI18nLoader: true,
     defaultLocale: 'pt-br',
     locales: [
       {
         code: 'en',
+        iso: 'en-US',
         file: 'index__en-us.js',
       },
       {
+        code: 'es',
+        iso: 'es-ES',
+        file: 'index__es-es.js',
+      },
+      {
         code: 'pt-br',
-        file: 'index__pt-br.js'
+        iso: 'pt-BR',
+        file: 'index__pt-br.js',
       },
     ],
     lazy: true,
