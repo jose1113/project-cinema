@@ -14,7 +14,7 @@
         <b-navbar-nav class="ml-auto">
           <b-nav-form>
             <b-form-input size="sm" class="mr-sm-2"></b-form-input>
-            <b-button size="sm" class="my-2 my-sm-0" type="submit">{{ $t('search') }}</b-button>
+            <b-button size="sm" class="my-2 my-sm-0" style="font-weight: 500;" type="submit">{{ $t('search') }}</b-button>
           </b-nav-form>
 
           <b-nav-item-dropdown text="Lang" right>
@@ -50,12 +50,23 @@
   }
   .nav{
     background-color: #af0404;
+    height: 5rem;
   }
   ::v-deep .nav-link {
     color: white!important;
+    font-weight: 600;
   }
   .logo{
-    width: 48px;
-    height: 48px;
+    width: 120px;
+    height: 120px;
   }
+  @media(max-width:989px){
+    .logo{
+    width: 65px;
+    height: 65px;
+  }
+  .nav{
+    height: auto;
+  }
+}
 </style>
