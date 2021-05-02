@@ -30,13 +30,13 @@
   <div>
       <img src="~/assets/space-jam-horizontal.jpg" alt="Space Jam: um novo legado cartaz" class="w-100">
     <b-container class="mt-3">
-      <h1>{{ $t('titleFilm') }} <b-badge variant="light" style="border: 1px solid black; font-size: 15px; color: green;">{{ $t('feature') }}</b-badge></h1>
+      <h1 style="font-weight: bold;">{{ $t('titleFilm') }} <b-badge variant="light" style="border: 1px solid black; font-size: 15px; color: green;">{{ $t('feature') }}</b-badge></h1>
       <p>2021 | <b-badge variant="danger" style="padding:7px;">{{ $t('define') }}</b-badge> | {{ $t('duration') }}</p>
     </b-container>
     <b-container>
       <b-row>
         <b-col cols="12" sm="12" md="12" lg="6" xl="6">
-          <h3>{{ $t('sinopseTitle') }}</h3>
+          <h3 style="font-weight: bold;">{{ $t('sinopseTitle') }}</h3>
           <p class="mt-2 text-justify">{{ $t('sinopse') }}</p>
           <p>{{ $t('classification') }}</p>
         </b-col>
@@ -47,28 +47,28 @@
         </b-col>
       </b-row>
     </b-container>
-    <b-container>
-      <h4 class="elenco">{{ $t('elenco') }}</h4>
-      <b-row class="text-center">
+    <b-container class="elenco rounded">
+      <h4 class="text-center text-white mt-3 p-2">{{ $t('elenco') }}</h4>
+      <b-row class="text-center d-flex justify-content-center">
           <b-col cols="6" sm="6" md="6" lg="3" xl="3">
             <nuxt-link to="/actor-lebron-james" class="actor">
-              <b-avatar src="~/assets/actor-lebron-james.jpg" size="100px"></b-avatar>
-              <p class="mt-2"><strong>Lebron James</strong></p>
-              <p style="color: gray; font-size: 15px;">{{ $t('character') }} LeBron James</p>
+              <b-avatar src="~/assets/actor-lebron-james.jpg" size="100px" style="border: 1px solid white;"></b-avatar>
+              <p class="mt-2 text-white"><strong>Lebron James</strong></p>
+              <p style="color: white; font-size: 15px;">{{ $t('character') }} LeBron James</p>
             </nuxt-link>
           </b-col>
           <b-col cols="6" sm="6" md="6" lg="3" xl="3">
             <nuxt-link to="/actor-don-cheadle" class="actor">
-              <b-avatar src="~/assets/actor-don-cheadle.jpg" size="100px"></b-avatar>
-              <p class="mt-2"><strong>Don Cheadle</strong></p>
-              <p style="color: gray; font-size: 15px;">{{ $t('character') }} AI G Rhythm</p>
+              <b-avatar src="~/assets/actor-don-cheadle.jpg" size="100px" style="border: 1px solid white;"></b-avatar>
+              <p class="mt-2 text-white"><strong>Don Cheadle</strong></p>
+              <p style="color: white; font-size: 15px;">{{ $t('character') }} AI G Rhythm</p>
             </nuxt-link>
           </b-col>
           <b-col cols="6" sm="6" md="6" lg="3" xl="3">
             <nuxt-link to="/actor-sonequa-martin-green" class="actor">
-              <b-avatar src="~/assets/actor-sonequa-martin-green.jpg" size="100px"></b-avatar>
-              <p class="mt-2"><strong>Sonequa Martin-Green</strong></p>
-              <p style="color: gray; font-size: 15px;">{{ $t('character') }} Kamiyah James</p>
+              <b-avatar src="~/assets/actor-sonequa-martin-green.jpg" size="100px" style="border: 1px solid white;"></b-avatar>
+              <p class="mt-2 text-white"><strong>Sonequa Martin-Green</strong></p>
+              <p style="color: white; font-size: 15px;">{{ $t('character') }} Kamiyah James</p>
             </nuxt-link>
           </b-col>
         </b-row>
@@ -76,6 +76,9 @@
   </div>
 </template>
 <style scoped>
+.elenco{
+  background-image: linear-gradient(to right bottom, #252525, #3f2942, #6b1f4a, #960037, #af0404);
+}
 h3{
   color: rgb(165, 35, 35);
 }

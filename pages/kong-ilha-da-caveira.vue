@@ -21,18 +21,18 @@
   <div>
       <img src="~/assets/kong-horizontal.jpg" alt="Cartaz Kong" class="w-100">
     <b-container class="mt-3">
-      <h1>{{ $t('titleFilm') }} <b-badge variant="light" style="border: 1px solid black; font-size: 15px; color: blue;">{{ $t('feature') }}</b-badge></h1>
+      <h1 style="font-weight: bold;">{{ $t('titleFilm') }} <b-badge variant="light" style="border: 1px solid black; font-size: 15px; color: blue;">{{ $t('feature') }}</b-badge></h1>
       <p>2017 | <b-badge variant="warning" style="padding:7px;">12</b-badge> | 1h 58min</p>
     </b-container>
     <b-container>
       <b-row>
         <b-col>
-          <h3>{{ $t('sinopseTitle') }}</h3>
+          <h3 style="font-weight: bold;">{{ $t('sinopseTitle') }}</h3>
           <p class="mt-2 text-justify">{{ $t('sinopse') }}</p>
         </b-col>
         <b-col>
           <div class="d-flex justify-content-center">
-            <iframe width="584" height="357" src="https://www.youtube.com/embed/HFDkRKUpKDs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="584" height="357" src="https://www.youtube.com/embed/VU-m5T6wBzY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </b-col>
       </b-row>
