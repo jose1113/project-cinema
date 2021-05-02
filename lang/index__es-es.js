@@ -1,0 +1,21 @@
+export default{
+  comingSoon: 'Pronto',
+  lancamentos: 'Lanzamientos',
+  search: 'Buscar',
+  rede: 'Nuestras redes',
+  contrast: 'Contraste',
+  activities: 'Actividades:',
+  yearsCareer: 'Años de carrera',
+  filmSerie: 'Películas y series lanzadas',
+  nameNasc: 'Nombre de nacimiento:',
+  nasc: 'Nacimiento:',
+  nationality: 'Nacionalidad:',
+  ageActor: 'Edad:',
+  addComment: 'Para agregar',
+  yearsActor: 'Años',
+  sinopseTitle: 'Leer la sinopsis',
+  elenco: 'Elenco',
+  character: 'Personaje:',
+  leaveComment: 'Deje su comentario',
+  clearFields: 'Campos claros'
+}

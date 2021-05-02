@@ -13,7 +13,9 @@ export default{
   ageActor: 'Idade:',
   addComment: 'Adicionar',
   yearsActor: 'Anos',
-  sinopse: 'Leia a sinopse',
+  sinopseTitle: 'Leia a sinopse',
   elenco: 'Elenco',
-  character: 'Personagem:'
+  character: 'Personagem:',
+  leaveComment: 'Deixe seu comentário',
+  clearFields: 'Limpar campos'
 }
