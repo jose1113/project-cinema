@@ -17,5 +17,7 @@ export default{
   elenco: 'Actors',
   character: 'Character:',
   leaveComment: 'Leave your comment',
-  clearFields: 'Clear fields'
+  clearFields: 'Clear fields',
+  comentario: 'Comment:',
+  name: 'Name:'
 }

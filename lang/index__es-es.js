@@ -17,5 +17,7 @@ export default{
   elenco: 'Elenco',
   character: 'Personaje:',
   leaveComment: 'Deje su comentario',
-  clearFields: 'Campos claros'
+  clearFields: 'Campos claros',
+  comentario: 'Comentario:',
+  name: 'Nombre:'
 }

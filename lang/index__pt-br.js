@@ -17,5 +17,7 @@ export default{
   elenco: 'Elenco',
   character: 'Personagem:',
   leaveComment: 'Deixe seu comentário',
-  clearFields: 'Limpar campos'
+  clearFields: 'Limpar campos',
+  comentario: 'Comentário:',
+  name: 'Nome:'
 }

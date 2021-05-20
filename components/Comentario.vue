@@ -4,7 +4,7 @@
       <hr>
       <h4 style="font-weight: 600;">{{ $t('leaveComment') }}</h4>
       <b-form @submit="onSubmit" @reset="onReset" v-if="show">
-      <b-form-group id="input-group-2" label="Nome:" label-for="input-2">
+      <b-form-group id="input-group-2" :label="$t('name')" label-for="input-2">
         <b-form-input
           id="input-2"
           v-model="form.name"
@@ -12,7 +12,7 @@
         ></b-form-input>
       </b-form-group>
 
-      <b-form-group id="input-group-3" label="Comentário:" label-for="input-3">
+      <b-form-group id="input-group-3" :label="$t('comentario')" label-for="input-3">
         <b-form-textarea
         id="textarea"
         v-model="form.text"

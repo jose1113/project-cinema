@@ -14,7 +14,7 @@
             </b-navbar>
         </b-col>
         <b-col cols="6" sm="6" md="6" lg="6" xl="6">
-          <b-navbar class="m-2 d-flex justify-content-end">
+          <b-navbar class="m-2 d-flex justify-content-end align-items-center">
             <p style="color:#B5121B; font-weight:600; cursor:pointer;">
               <ColorModePicker />
             </p>
