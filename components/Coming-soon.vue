@@ -1,5 +1,5 @@
 <template>
-  <b-container fluid class="mt-3 cards">
+  <b-container fluid class="mt-3 cards rounded">
     <b-container class="container" style="max-width: 640px;">
       <h3>{{ $t('comingSoon') }}</h3>
         <b-card-group class="m-auto" columns>
