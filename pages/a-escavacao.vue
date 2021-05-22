@@ -70,7 +70,6 @@
           </b-col>
         </b-row>
     </b-container>
-        <Comentario />
   </div>
 </template>
 <style scoped>
