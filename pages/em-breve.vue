@@ -1,5 +1,53 @@
 <template>
     <div>
-
+      <b-container fluid class="mt-3 cards rounded">
+        <b-container class="container" style="max-width: 940px;">
+          <h3>{{ $t('comingSoon') }}</h3>
+            <b-card-group class="m-auto" columns>
+                <nuxt-link to="/a-escavacao">
+                  <b-card img-src="~/assets/a-escavacao-vertical.jpg" img-alt="A escavação" overlay></b-card>
+                  <b-badge class="badge" style="background-color: orange;">14</b-badge>
+                </nuxt-link>
+              <nuxt-link to="/space-jam">
+                <b-card img-src="~/assets/space-jam-vertical.jpg" img-alt="Bliss: em busca da felicidade" overlay></b-card>
+                <b-badge class="badge" variant="danger">16</b-badge>
+              </nuxt-link>
+              <nuxt-link to="/raya-e-o-ultimo-dragao">
+                <b-card img-src="~/assets/raya-vertical.jpg" img-alt="Raya e o último dragão" overlay></b-card>
+                <b-badge class="badge" variant="danger">16</b-badge>
+              </nuxt-link>
+            </b-card-group>
+        </b-container>
+        <b-container class="container" style="max-width: 940px;">
+            <b-card-group class="m-auto" columns>
+                <nuxt-link to="/sem-remorso">
+                  <b-card img-src="~/assets/sem-remorso-vertical.jpg" img-alt="Sem remorso" overlay></b-card>
+                  <b-badge class="badge" variant="danger">16</b-badge>
+                </nuxt-link>
+              <nuxt-link to="/space-jam">
+                <b-card img-src="~/assets/space-jam-vertical.jpg" img-alt="Bliss: em busca da felicidade" overlay></b-card>
+                <b-badge class="badge" variant="danger">16</b-badge>
+              </nuxt-link>
+              <nuxt-link to="/raya-e-o-ultimo-dragao">
+                <b-card img-src="~/assets/raya-vertical.jpg" img-alt="Raya e o último dragão" overlay></b-card>
+                <b-badge class="badge" variant="danger">16</b-badge>
+              </nuxt-link>
+            </b-card-group>
+        </b-container>
+      </b-container>
     </div>
 </template>
+<style scoped>
+.badge{
+  padding: 10px;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.cards{
+  background-image: linear-gradient(to right bottom, #252525, #3f2942, #6b1f4a, #960037, #af0404);
+}
+h3{
+  padding: 15px;
+  color: white;
+}
+</style>
