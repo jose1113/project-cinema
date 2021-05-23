@@ -24,13 +24,13 @@
                   <b-card img-src="~/assets/sem-remorso-vertical.jpg" img-alt="Sem remorso" overlay></b-card>
                   <b-badge class="badge" variant="danger">16</b-badge>
                 </nuxt-link>
-              <nuxt-link to="/space-jam">
-                <b-card img-src="~/assets/space-jam-vertical.jpg" img-alt="Bliss: em busca da felicidade" overlay></b-card>
-                <b-badge class="badge" variant="danger">16</b-badge>
+              <nuxt-link to="/passageiro-acidental">
+                <b-card img-src="~/assets/passageiro-acidental-vertical.png" img-alt="Passageiro acidenal" overlay></b-card>
+                <b-badge class="badge" style="background-color: orange;">14</b-badge>
               </nuxt-link>
-              <nuxt-link to="/raya-e-o-ultimo-dragao">
-                <b-card img-src="~/assets/raya-vertical.jpg" img-alt="Raya e o último dragão" overlay></b-card>
-                <b-badge class="badge" variant="danger">16</b-badge>
+              <nuxt-link to="/zona-de-combate">
+                <b-card img-src="~/assets/zona-de-combate-vertical.png" img-alt="Zona de combate" overlay></b-card>
+                <b-badge class="badge" variant="dark">18</b-badge>
               </nuxt-link>
             </b-card-group>
         </b-container>
@@ -49,5 +49,7 @@
 h3{
   padding: 15px;
   color: white;
+  font-size: 40px;
+  font-weight: bold;
 }
 </style>

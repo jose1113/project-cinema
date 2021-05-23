@@ -1,6 +1,7 @@
 <template>
   <div>
     <b-carousel
+      class="mt-3"
       id="carousel-1"
       v-model="slide"
       :interval="4000"
@@ -14,12 +15,11 @@
     >
 
       <!-- Slides with image only -->
-      <nuxt-link to="/kong-ilha-da-caveira"><b-carousel-slide img-src="~/assets/kong-cartaz.jpg"></b-carousel-slide></nuxt-link>
-      <nuxt-link to="/tom-e-jerry"><b-carousel-slide img-src="~/assets/tom-e-jerry-cartaz.jpg"></b-carousel-slide></nuxt-link>
+      <nuxt-link to="/kong-ilha-da-caveira"><b-carousel-slide img-src="~/assets/kong-cartaz.png"></b-carousel-slide></nuxt-link>
+      <nuxt-link to="/tom-e-jerry"><b-carousel-slide img-src="~/assets/tom-e-jerry-cartaz.png"></b-carousel-slide></nuxt-link>
     </b-carousel>
   </div>
 </template>
-
 <script>
   export default {
     data() {

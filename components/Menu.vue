@@ -7,7 +7,6 @@
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <b-collapse id="nav-collapse" is-nav>
-      <b-nav-item href="#" class="lancamentos">{{ $t('lancamentos') }}</b-nav-item>
       <b-nav-item href="/em-breve" class="lancamentos">{{ $t('comingSoon') }}</b-nav-item>
 
         <!-- Right aligned nav items -->
@@ -57,8 +56,8 @@
     font-weight: 600;
   }
   .logo{
-    width: 120px;
-    height: 120px;
+    width: 180px;
+    height: 100px;
   }
   @media(max-width:989px){
     .logo{
