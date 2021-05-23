@@ -20,5 +20,6 @@ export default{
   clearFields: 'Clear fields',
   comentario: 'Comment:',
   name: 'Name:',
-  actor: 'Actor'
+  actor: 'Actor',
+  aboutUs: 'Know a little about us'
 }

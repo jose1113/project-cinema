@@ -20,5 +20,6 @@ export default{
   clearFields: 'Campos claros',
   comentario: 'Comentario:',
   name: 'Nombre:',
-  actor: 'Actor'
+  actor: 'Actor',
+  aboutUs: 'Conoce un poco de nosotros'
 }
