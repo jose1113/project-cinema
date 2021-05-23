@@ -19,5 +19,6 @@ export default{
   leaveComment: 'Leave your comment',
   clearFields: 'Clear fields',
   comentario: 'Comment:',
-  name: 'Name:'
+  name: 'Name:',
+  actor: 'Actor'
 }
