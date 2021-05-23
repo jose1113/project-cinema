@@ -4,7 +4,7 @@
       <b-row class="d-flex align-items-center">
         <b-col cols="12" sm="12" md="12" lg="6" xl="6">
           <h3 class="mb-3">{{ nome }}</h3>
-          <b-avatar :src="require(`~/assets/${img}`)" size="300px"></b-avatar>
+          <b-avatar :src="require(`~/assets/${img}`)" class="changeColor" size="300px"></b-avatar>
         </b-col>
         <b-col cols="12" sm="12" md="12" lg="6" xl="6">
           <p><strong>{{ $t('activities') }}</strong> <span>{{ atividades }}</span></p>
@@ -36,6 +36,9 @@
 }
 .border strong{
   font-size: 30px;
+}
+.changeColor{
+  border: 2px solid #af0404;
 }
 @media(max-width:768px){
   div{
