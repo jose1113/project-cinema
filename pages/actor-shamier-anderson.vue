@@ -1,13 +1,13 @@
 <i18n>
 {
   "en": {
-    "titleFilm": "The Dig"
+    "titleFilm": "Stowaway"
   },
   "es": {
-    "titleFilm": "La excavación"
+    "titleFilm": "Pasajero accidental"
   },
   "pt-br": {
-    "titleFilm": "A escavação"
+    "titleFilm": "Passageiro acidental"
   }
 }
 </i18n>
@@ -15,15 +15,15 @@
   <div>
     <b-breadcrumb :items="items"></b-breadcrumb>
     <Actor
-      nome = 'Carey Mulligan'
-      atividades = 'Atriz'
-      nomeNasc = 'Carey Hannah Mulligan'
-      nascimento = '28 de maio de 1985 (Londres, Inglaterra)'
-      nacionalidade = 'Britânica'
-      idade = '35'
-      anosCar = '14'
-      filmes = '23'
-      img = 'actor-carey-mulligan.jpg'
+      nome = 'Shamier Anderson'
+      atividades = 'Ator'
+      nomeNasc = 'Desconhecido'
+      nascimento = '6 de maio de 1991 (Toronto, Canadá)'
+      nacionalidade = 'Canadense'
+      idade = '30'
+      anosCar = '10'
+      filmes = '19'
+      img = 'actor-shamier-anderson.jpg'
     />
   </div>
 </template>
@@ -43,10 +43,10 @@
         items: [
           {
             text: this.$t("titleFilm"),
-            href: '/a-escavacao'
+            href: '/passageiro-acidental'
           },
           {
-            text: `${this.$t("actor")}: Carey Mulligan`,
+            text: `${this.$t("actor")}: Shamier Anderson`,
             href: '#'
           },
         ]

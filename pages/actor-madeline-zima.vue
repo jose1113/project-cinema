@@ -49,7 +49,7 @@
             href: '/bliss-em-busca-da-felicidade'
           },
           {
-            text: 'Atriz: Madeline Zima',
+            text: `${this.$t("actor")}: Madeline Zima`,
             href: '#'
           },
         ]

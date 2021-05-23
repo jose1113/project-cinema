@@ -1,13 +1,13 @@
 <i18n>
 {
   "en": {
-    "titleFilm": "The Dig"
+    "titleFilm": "Whithout remorse"
   },
   "es": {
-    "titleFilm": "La excavación"
+    "titleFilm": "Sin disculpas"
   },
   "pt-br": {
-    "titleFilm": "A escavação"
+    "titleFilm": "Sem remorso"
   }
 }
 </i18n>
@@ -15,15 +15,15 @@
   <div>
     <b-breadcrumb :items="items"></b-breadcrumb>
     <Actor
-      nome = 'Carey Mulligan'
-      atividades = 'Atriz'
-      nomeNasc = 'Carey Hannah Mulligan'
-      nascimento = '28 de maio de 1985 (Londres, Inglaterra)'
-      nacionalidade = 'Britânica'
+      nome = 'Jamie Bell'
+      atividades = 'Ator, Intérprete de músicas adicionais, Produtor Executivo'
+      nomeNasc = 'Andrew James Maftin Bell'
+      nascimento = '14 de março de 1986 (Billingham, County Dunham, Inglaterra)'
+      nacionalidade = 'Britânico'
       idade = '35'
-      anosCar = '14'
-      filmes = '23'
-      img = 'actor-carey-mulligan.jpg'
+      anosCar = '21'
+      filmes = '30'
+      img = 'actor-jamie-bell.jpg'
     />
   </div>
 </template>
@@ -43,10 +43,10 @@
         items: [
           {
             text: this.$t("titleFilm"),
-            href: '/a-escavacao'
+            href: '/sem-remorso'
           },
           {
-            text: `${this.$t("actor")}: Carey Mulligan`,
+            text: `${this.$t("actor")}: Jamie Bell`,
             href: '#'
           },
         ]

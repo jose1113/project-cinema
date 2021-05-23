@@ -24,7 +24,7 @@
             href: '/tom-e-jerry'
           },
           {
-            text: 'Atriz: Camilla Rutherford',
+            text: `${this.$t("actor")}: Camilla Rutherford`,
             href: '#'
           },
         ]

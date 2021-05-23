@@ -1,13 +1,13 @@
 <i18n>
 {
   "en": {
-    "titleFilm": "The Dig"
+    "titleFilm": "Whithout remorse"
   },
   "es": {
-    "titleFilm": "La excavación"
+    "titleFilm": "Sin disculpas"
   },
   "pt-br": {
-    "titleFilm": "A escavação"
+    "titleFilm": "Sem remorso"
   }
 }
 </i18n>
@@ -15,15 +15,15 @@
   <div>
     <b-breadcrumb :items="items"></b-breadcrumb>
     <Actor
-      nome = 'Carey Mulligan'
+      nome = 'Jodie Turner-Smith'
       atividades = 'Atriz'
-      nomeNasc = 'Carey Hannah Mulligan'
-      nascimento = '28 de maio de 1985 (Londres, Inglaterra)'
+      nomeNasc = 'Desconhecido'
+      nascimento = '7 de setembro de 1986'
       nacionalidade = 'Britânica'
-      idade = '35'
-      anosCar = '14'
-      filmes = '23'
-      img = 'actor-carey-mulligan.jpg'
+      idade = '34'
+      anosCar = '4'
+      filmes = '8'
+      img = 'actor-jodie-turner-smith.jpg'
     />
   </div>
 </template>
@@ -43,10 +43,10 @@
         items: [
           {
             text: this.$t("titleFilm"),
-            href: '/a-escavacao'
+            href: '/sem-remorso'
           },
           {
-            text: `${this.$t("actor")}: Carey Mulligan`,
+            text: `${this.$t("actor")}: Jodie Turner-Smith`,
             href: '#'
           },
         ]

@@ -1,13 +1,13 @@
 <i18n>
 {
   "en": {
-    "titleFilm": "The Dig"
+    "titleFilm": "Outside the Wire"
   },
   "es": {
-    "titleFilm": "La excavación"
+    "titleFilm": "Zona de combate"
   },
   "pt-br": {
-    "titleFilm": "A escavação"
+    "titleFilm": "Zona de combate"
   }
 }
 </i18n>
@@ -15,15 +15,15 @@
   <div>
     <b-breadcrumb :items="items"></b-breadcrumb>
     <Actor
-      nome = 'Carey Mulligan'
-      atividades = 'Atriz'
-      nomeNasc = 'Carey Hannah Mulligan'
-      nascimento = '28 de maio de 1985 (Londres, Inglaterra)'
-      nacionalidade = 'Britânica'
-      idade = '35'
-      anosCar = '14'
-      filmes = '23'
-      img = 'actor-carey-mulligan.jpg'
+      nome = 'Damson Idris'
+      atividades = 'Ator'
+      nomeNasc = 'Desconhecido'
+      nascimento = '2 de setembro de 1991 (Peckham, Londres, Inglaterra, Reino Unido)'
+      nacionalidade = 'Britânico'
+      idade = '29'
+      anosCar = '3'
+      filmes = '7'
+      img = 'actor-damson-idris.jpg'
     />
   </div>
 </template>
@@ -43,10 +43,10 @@
         items: [
           {
             text: this.$t("titleFilm"),
-            href: '/a-escavacao'
+            href: '/zona-de-combate'
           },
           {
-            text: `${this.$t("actor")}: Carey Mulligan`,
+            text: `${this.$t("actor")}: Damson Idris`,
             href: '#'
           },
         ]

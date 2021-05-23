@@ -1,3 +1,16 @@
+<i18n>
+{
+  "en": {
+    "titleFilm": "The Dig"
+  },
+  "es": {
+    "titleFilm": "La excavación"
+  },
+  "pt-br": {
+    "titleFilm": "A escavação"
+  }
+}
+</i18n>
 <template>
   <div>
     <b-breadcrumb :items="items"></b-breadcrumb>
@@ -24,17 +37,16 @@
 }
 </style>
 <script>
-import Actor from '~/components/Actor.vue'
   export default {
     data() {
       return {
         items: [
           {
-            text: 'A escavação',
+            text: this.$t("titleFilm"),
             href: '/a-escavacao'
           },
           {
-            text: 'Ator: Arsher Ali',
+            text: `${this.$t("actor")}: Arsher Ali`,
             href: '#'
           },
         ],

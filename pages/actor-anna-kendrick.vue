@@ -1,13 +1,13 @@
 <i18n>
 {
   "en": {
-    "titleFilm": "The Dig"
+    "titleFilm": "Stowaway"
   },
   "es": {
-    "titleFilm": "La excavación"
+    "titleFilm": "Pasajero accidental"
   },
   "pt-br": {
-    "titleFilm": "A escavação"
+    "titleFilm": "Passageiro acidental"
   }
 }
 </i18n>
@@ -15,15 +15,15 @@
   <div>
     <b-breadcrumb :items="items"></b-breadcrumb>
     <Actor
-      nome = 'Carey Mulligan'
-      atividades = 'Atriz'
-      nomeNasc = 'Carey Hannah Mulligan'
-      nascimento = '28 de maio de 1985 (Londres, Inglaterra)'
-      nacionalidade = 'Britânica'
+      nome = 'Anna Kendrick'
+      atividades = 'Atriz, Produtora Executiva'
+      nomeNasc = 'Anna Cooke Kendrick'
+      nascimento = '9 de agosto de 1985 (Portland, Maine, EUA)'
+      nacionalidade = 'Americana'
       idade = '35'
-      anosCar = '14'
-      filmes = '23'
-      img = 'actor-carey-mulligan.jpg'
+      anosCar = '12'
+      filmes = '41'
+      img = 'actor-anna-kendrick.jpg'
     />
   </div>
 </template>
@@ -43,10 +43,10 @@
         items: [
           {
             text: this.$t("titleFilm"),
-            href: '/a-escavacao'
+            href: '/passageiro-acidental'
           },
           {
-            text: `${this.$t("actor")}: Carey Mulligan`,
+            text: `${this.$t("actor")}: Anna Kendrick`,
             href: '#'
           },
         ]

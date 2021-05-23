@@ -1,3 +1,16 @@
+<i18n>
+{
+  "en": {
+    "titleFilm": "Space Jam: A New Legacy"
+  },
+  "es": {
+    "titleFilm": "Space Jam: Una nueva era"
+  },
+  "pt-br": {
+    "titleFilm": "Space Jam: um novo legado"
+  }
+}
+</i18n>
 <template>
   <div>
     <b-breadcrumb :items="items"></b-breadcrumb>
@@ -20,11 +33,11 @@
       return {
         items: [
           {
-            text: 'Space Jam: um novo legado',
+            text: this.$t("titleFilm"),
             href: '/space-jam'
           },
           {
-            text: 'Ator: Don Cheadle',
+            text: `${this.$t("actor")}: Don Cheadle`,
             href: '#'
           },
         ]

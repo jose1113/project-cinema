@@ -19,7 +19,7 @@
 </i18n>
 <template>
   <div>
-    <img src="~/assets/sem-remorso-horizontal.jpg" alt="Cartaz Sem remorso" class="w-100">
+    <img src="~/assets/sem-remorso-horizontal.png" alt="Cartaz Sem remorso" class="w-100">
     <b-container class="mt-3">
       <h1 style="font-weight: bold;">{{ $t('titleFilm') }} <b-badge variant="light" style="border: 1px solid black; font-size: 15px; color: purple;">{{ $t('feature') }}</b-badge></h1>
       <p>2021 | <b-badge style="padding:7px;" variant="danger">16</b-badge> | 1h 50min</p>
@@ -32,7 +32,7 @@
         </b-col>
         <b-col cols="12" sm="12" md="12" lg="6" xl="6">
           <div class="d-flex justify-content-center">
-            <iframe width="506" height="303" src="https://www.youtube.com/embed/rXoel44ZudM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="506" height="303" src="https://www.youtube.com/embed/do-OmONBTss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </b-col>
       </b-row>
@@ -41,31 +41,31 @@
       <h4 class="text-center text-white mt-3 p-2">{{ $t('elenco') }}</h4>
       <b-row class="text-center">
           <b-col cols="6" sm="6" md="6" lg="3" xl="3">
-            <nuxt-link to="/actor-ralph-fiennes" class="actor">
-              <b-avatar src="~/assets/actor-ralph-fiennes.jpg" size="100px" style="border: 1px solid white;"></b-avatar>
-              <p class="mt-2 text-white"><strong>Ralph Fiennes</strong></p>
-              <p style="color: white; font-size: 15px;">{{ $t('character') }} Basil Brown</p>
+            <nuxt-link to="/actor-michael-b-jordan" class="actor">
+              <b-avatar src="~/assets/actor-michael-b-jordan.jpg" size="100px" style="border: 1px solid white;"></b-avatar>
+              <p class="mt-2 text-white"><strong>Michael B. Jordan</strong></p>
+              <p style="color: white; font-size: 15px;">{{ $t('character') }} John Kelly</p>
             </nuxt-link>
           </b-col>
           <b-col cols="6" sm="6" md="6" lg="3" xl="3">
-            <nuxt-link to="/actor-carey-mulligan" class="actor">
-              <b-avatar src="~/assets/actor-carey-mulligan.jpg" size="100px" style="border: 1px solid white;"></b-avatar>
-              <p class="mt-2 text-white"><strong>Carey Mulligan</strong></p>
-              <p style="color: white; font-size: 15px;">{{ $t('character') }} Edith Pretty</p>
+            <nuxt-link to="/actor-jodie-turner-smith" class="actor">
+              <b-avatar src="~/assets/actor-jodie-turner-smith.jpg" size="100px" style="border: 1px solid white;"></b-avatar>
+              <p class="mt-2 text-white"><strong>Jodie Turner-Smith</strong></p>
+              <p style="color: white; font-size: 15px;">{{ $t('character') }} Karen Greer</p>
             </nuxt-link>
           </b-col>
           <b-col cols="6" sm="6" md="6" lg="3" xl="3">
-            <nuxt-link to="/actor-lily-james" class="actor">
-              <b-avatar src="~/assets/actor-lily-james.jpg" size="100px" style="border: 1px solid white;"></b-avatar>
-              <p class="mt-2 text-white"><strong>Lily James</strong></p>
-              <p style="color: white; font-size: 15px;">{{ $t('character') }} Peggy Preston</p>
+            <nuxt-link to="/actor-jamie-bell" class="actor">
+              <b-avatar src="~/assets/actor-jamie-bell.jpg" size="100px" style="border: 1px solid white;"></b-avatar>
+              <p class="mt-2 text-white"><strong>Jamie Bell</strong></p>
+              <p style="color: white; font-size: 15px;">{{ $t('character') }} Robert Ritter</p>
             </nuxt-link>
           </b-col>
           <b-col cols="6" sm="6" md="6" lg="3" xl="3">
-            <nuxt-link to="/actor-arsher-ali" class="actor">
-              <b-avatar src="~/assets/actor-arsher-ali.jpg" size="100px" style="border: 1px solid white;"></b-avatar>
-              <p class="mt-2 text-white"><strong>Arsher Ali</strong></p>
-              <p style="color: white; font-size: 15px;">{{ $t('character') }} William Grimes</p>
+            <nuxt-link to="/actor-guy-pearce" class="actor">
+              <b-avatar src="~/assets/actor-guy-pearce.jpg" size="100px" style="border: 1px solid white;"></b-avatar>
+              <p class="mt-2 text-white"><strong>Guy Pearce</strong></p>
+              <p style="color: white; font-size: 15px;">{{ $t('character') }} Secretary Clay</p>
             </nuxt-link>
           </b-col>
         </b-row>

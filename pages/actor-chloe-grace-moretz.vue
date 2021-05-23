@@ -33,7 +33,7 @@
             href: '/tom-e-jerry'
           },
           {
-            text: 'Atriz: Chloë Grace Moretz',
+            text: `${this.$t("actor")}: Chloë Grace Moretz`,
             href: '#'
           },
         ]

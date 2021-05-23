@@ -33,7 +33,7 @@
             href: '/tom-e-jerry'
           },
           {
-            text: 'Ator: Michael Peña',
+            text: `${this.$t("actor")}: Michael Peña`,
             href: '#'
           },
         ]
