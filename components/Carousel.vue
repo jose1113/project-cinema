@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-carousel
-      class="mt-3"
+      class="mt-3 rounded"
       id="carousel-1"
       v-model="slide"
       :interval="4000"
@@ -16,7 +16,7 @@
 
       <!-- Slides with image only -->
       <nuxt-link to="/kong-ilha-da-caveira"><b-carousel-slide img-src="~/assets/kong-cartaz.png"></b-carousel-slide></nuxt-link>
-      <nuxt-link to="/tom-e-jerry"><b-carousel-slide img-src="~/assets/tom-e-jerry-cartaz.png"></b-carousel-slide></nuxt-link>
+      <nuxt-link to="/nova-ordem-espacial"><b-carousel-slide img-src="~/assets/nova-ordem-espacial-cartaz.png"></b-carousel-slide></nuxt-link>
     </b-carousel>
   </div>
 </template>
