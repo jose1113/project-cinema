@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/es/tom-e-jerry", {data:[{}],fetch:{},mutations:void 0});

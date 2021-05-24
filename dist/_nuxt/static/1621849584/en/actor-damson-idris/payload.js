@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/actor-damson-idris", {data:[{}],fetch:{},mutations:void 0});

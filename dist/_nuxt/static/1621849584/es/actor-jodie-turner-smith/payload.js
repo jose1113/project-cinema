@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/es/actor-jodie-turner-smith", {data:[{}],fetch:{},mutations:void 0});

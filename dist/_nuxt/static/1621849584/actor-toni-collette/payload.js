@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/actor-toni-collette", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/em-breve", {data:[{}],fetch:{},mutations:void 0});

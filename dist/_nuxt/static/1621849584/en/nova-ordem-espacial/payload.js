@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/nova-ordem-espacial", {data:[{}],fetch:{},mutations:void 0});

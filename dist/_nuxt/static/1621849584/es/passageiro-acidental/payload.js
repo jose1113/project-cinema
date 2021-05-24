@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/es/passageiro-acidental", {data:[{}],fetch:{},mutations:void 0});

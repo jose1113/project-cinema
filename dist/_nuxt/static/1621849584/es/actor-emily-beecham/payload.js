@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/es/actor-emily-beecham", {data:[{}],fetch:{},mutations:void 0});

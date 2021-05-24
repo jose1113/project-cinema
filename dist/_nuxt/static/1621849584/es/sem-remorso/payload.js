@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/es/sem-remorso", {data:[{}],fetch:{},mutations:void 0});

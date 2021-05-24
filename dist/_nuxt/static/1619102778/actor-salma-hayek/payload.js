@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/actor-salma-hayek", {data:[{}],fetch:{},mutations:void 0});

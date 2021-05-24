@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/actor-chloe-grace-moretz", {data:[{}],fetch:{},mutations:void 0});

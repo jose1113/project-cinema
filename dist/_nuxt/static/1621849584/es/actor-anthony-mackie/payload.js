@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/es/actor-anthony-mackie", {data:[{}],fetch:{},mutations:void 0});

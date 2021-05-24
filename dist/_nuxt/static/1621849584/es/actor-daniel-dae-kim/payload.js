@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/es/actor-daniel-dae-kim", {data:[{}],fetch:{},mutations:void 0});

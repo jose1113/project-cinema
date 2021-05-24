@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/es/actor-michael-b-jordan", {data:[{}],fetch:{},mutations:void 0});
